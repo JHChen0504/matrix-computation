@@ -56,7 +56,7 @@ ylabel('Residual of matrix')
 legend('QR','Location','NW','Fontsize',14)
 title(t,'FontSize',14)
 
-saveas(time,'r_data_time','pdf')
-saveas(Reseig,'r_data_eig','pdf')
-saveas(Resmtx,'r_data_mtx','pdf')
+saveas(time,'r_data_time','png')
+saveas(Reseig,'r_data_eig','png')
+saveas(Resmtx,'r_data_mtx','png')
 
